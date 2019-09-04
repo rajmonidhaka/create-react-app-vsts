@@ -11,3 +11,4 @@ const lakeList = [
 ];
 
 ReactDOM.render(<App lakes={lakeList} />, document.getElementById("root"));
+serviceWorker.unregister();
